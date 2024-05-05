@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(255, 252, 248);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frame{
+    height: 600px;
+    width: 460px;
+    background-color: rgb(223, 235, 245);
+    padding: 10px;
+    box-shadow: 5px 5px 15px rgb(130, 183, 229),-5px -5px 10px rgb(243, 228, 199);
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.display{
+
+}
+#display{
+    height: 90px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    box-shadow: 2px 2px 10px rgb(132, 190, 221),inset -5px -5px 10px #a4b9f1;
+    font-size: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: right;
+}
+.buttons-group{
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    width: 85px;
+    height: 85px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 10px rgb(223, 134, 134),-5px -5px 10px rgb(226, 217, 199);
+    margin-bottom: 15px;
+}
+.button:active
+{
+    box-shadow: inset 1px 1px 2px  #a4b9f1,inset -1px -1px 2px floralwhite;
+}
+.button:hover{
+    background-color: red;
+    color: aliceblue;
+    cursor: pointer;
+  
+}
